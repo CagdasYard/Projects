@@ -109,7 +109,7 @@ class Labyrinth(pyglet.window.Window):
                                                  self.DIRECTION=DIRECTION
                                                  break
                             if not self.ALTERNATIVE_ROUTE:
-                                   self.POS=self.STACK[-1]
+                                   self.POS=self.STACK[-1] 
                                    self.STACK.pop()
 
                             if self.ALTERNATIVE_ROUTE:
