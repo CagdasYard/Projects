@@ -5,7 +5,7 @@ def out_of_bounds(WIDTH,HEIGHT,POS,DIRECTION):
 
 
 class Labyrinth(pyglet.window.Window):
-       def __init__(self,_COLUMN_,_ROW_,_GRID_SIZE_,_LINE_WIDTH_:
+       def __init__(self,_COLUMN_,_ROW_,_GRID_SIZE_,_LINE_WIDTH_):
               self.GRID_SIZE   = int(_GRID_SIZE_)
               self.ROW_SIZE    = int(_ROW_)
               self.COLUMN_SIZE = int(_COLUMN_)
